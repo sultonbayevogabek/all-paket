@@ -94,12 +94,15 @@ document.addEventListener('DOMContentLoaded', () => {
          searchInputElement.classList.add('search-input-open')
          searchInputElement.classList.remove('hidden')
       }, 200)
+      setTimeout(() => {
+         searchInputElement.focus()
+      }, 600)
    }
 
    function closeSearchInput() {
       searchInputElement.classList.remove('search-input-open')
       searchInputElement.classList.add('search-input-close')
-
+      searchFormElement.reset()
       setTimeout(() => {
          searchInputElement.classList.add('hidden')
       }, 400)
