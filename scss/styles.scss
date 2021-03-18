@@ -1,0 +1,8 @@
+// import fonts from google.font service
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600&family=Poppins:wght@700&display=swap');
+// bundle scss styles
+@import "variables";
+@import "mixins";
+@import "base";
+@import "site-header";
+@import "media";
