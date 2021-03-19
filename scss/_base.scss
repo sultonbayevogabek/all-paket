@@ -1,6 +1,7 @@
 // base styles
 html {
    box-sizing: border-box;
+   scroll-behavior: smooth;
 }
 
 *,
@@ -57,6 +58,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 .section-title {
    width: max-content;
+   padding-bottom: 8px;
    border-bottom: 8px solid $WHITE;
    font-family: "Montserrat", sans-serif;
    font-weight: 700;
