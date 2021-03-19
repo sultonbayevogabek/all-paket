@@ -65,4 +65,5 @@ input[type="search"]::-webkit-search-results-decoration {
    font-size: 32px;
    line-height: 140%;
    color: $WHITE;
+   text-transform: capitalize;
 }

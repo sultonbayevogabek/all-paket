@@ -66,6 +66,7 @@ input[type=search]::-webkit-search-results-decoration {
   font-size: 32px;
   line-height: 140%;
   color: #FFFFFF;
+  text-transform: capitalize;
 }
 
 .site-header {
@@ -336,6 +337,67 @@ input[type=search]::-webkit-search-results-decoration {
   bottom: 0;
   z-index: -1;
   background: linear-gradient(89.92deg, #00B892 0.1%, #03CEA4 50%, #03CEA4 50%);
+}
+
+.our-products {
+  padding-top: 40px;
+}
+.our-products h2 {
+  color: #485764;
+  border-color: #03CEA4;
+  margin: 0 auto 40px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 425px;
+  min-height: 600px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.card:not(:nth-child(3n)) {
+  margin-right: 21px;
+}
+
+.card-header {
+  position: relative;
+  height: 153px;
+  margin-bottom: 134px;
+  background: linear-gradient(90deg, #3CFCD4 0%, #2AE7BF 100%);
+  border-radius: 8px 8px 0 0;
+}
+
+.card-img {
+  position: absolute;
+  top: 43px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 220px;
+  border: 10px solid #FFFFFF;
+  border-radius: 50%;
+  background-color: #03CEA4;
+  overflow: hidden;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.2));
+}
+
+.card-title {
+  margin-bottom: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .site-footer {
