@@ -55,3 +55,12 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
    display: none;
 }
+.section-title {
+   width: max-content;
+   border-bottom: 8px solid $WHITE;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 140%;
+   color: $WHITE;
+}
