@@ -7,6 +7,16 @@ html {
 *::after,
 *::before {
   box-sizing: inherit;
+  user-select: none;
+}
+
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 body {
@@ -101,9 +111,10 @@ input[type=search]::-webkit-search-results-decoration {
 
 .search-form {
   position: absolute;
-  top: 60px;
+  top: 85px;
   right: 0;
   width: 320px;
+  padding: 10px;
   overflow: hidden;
 }
 
@@ -118,6 +129,7 @@ input[type=search]::-webkit-search-results-decoration {
   font-size: 16px;
   line-height: 1;
   color: #000000;
+  box-shadow: 0 0 10px 0 #FFFFFF;
 }
 
 .search-input-open {
@@ -208,6 +220,64 @@ input[type=search]::-webkit-search-results-decoration {
   to {
     transform: translateX(100%);
   }
+}
+.site-intro {
+  padding-top: 225px;
+  padding-bottom: 305px;
+  background-image: url("../img/bg-header.png");
+  background-size: cover;
+  background-position: bottom center;
+}
+.site-intro .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.site-intro__left {
+  width: 661px;
+}
+.site-intro__left h1 {
+  margin-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 128%;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.site-intro__left a {
+  padding: 16px 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 3px solid #FFFFFF;
+  transition: 0.3s all ease;
+}
+.site-intro__left a:hover {
+  background: linear-gradient(89.92deg, #00B892 0.1%, #03CEA4 88.39%);
+}
+
+.site-intro__right {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.site-intro__right div:first-child {
+  font-weight: 800;
+  font-size: 320px;
+  line-height: 100%;
+  color: #F8F037;
+}
+.site-intro__right div:last-child {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=styles.css.map */
