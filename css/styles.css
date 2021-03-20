@@ -732,6 +732,11 @@ input[type=search]::-webkit-search-results-decoration {
     margin-right: 16px;
   }
 }
+@media only screen and (max-width: 1060px) {
+  .site-info {
+    background-size: cover;
+  }
+}
 @media only screen and (max-width: 1000px) {
   .site-intro__left {
     width: 100%;
@@ -753,11 +758,28 @@ input[type=search]::-webkit-search-results-decoration {
   }
 
   .site-intro__right div:first-child {
-    font-size: 150px;
+    font-size: 180px;
     line-height: 1;
   }
   .site-intro__right div:last-child {
     font-size: 20px;
+  }
+
+  .site-info__left {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .site-info__link {
+    font-size: 16px;
+    line-height: 120%;
+  }
+
+  .section-title {
+    font-size: 25px;
+    border-bottom-width: 4px;
+    word-break: break-word;
   }
 }
 @media only screen and (max-width: 450px) {

@@ -75,6 +75,11 @@
    }
 }
 
+@include media(1060px){
+   .site-info {
+      background-size: cover;
+   }
+}
 @include media(1000px) {
    .site-intro__left {
       width: 100%;
@@ -100,12 +105,28 @@
    }
    .site-intro__right {
       div:first-child {
-         font-size: 150px;
+         font-size: 180px;
          line-height: 1;
       }
       div:last-child {
          font-size: 20px;
       }
+   }
+   .site-info__left {
+      width: 100%;
+      padding-top: 30px;
+      padding-bottom: 30px;
+   }
+
+   .site-info__link {
+      font-size: 16px;
+      line-height: 120%;
+   }
+
+   .section-title {
+      font-size: 25px;
+      border-bottom-width: 4px;
+      word-break: break-word;
    }
 }
 
