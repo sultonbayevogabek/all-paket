@@ -488,6 +488,7 @@ input[type=search]::-webkit-search-results-decoration {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 1098px;
   margin: 0 auto;
   padding: 32px;
@@ -542,6 +543,7 @@ input[type=search]::-webkit-search-results-decoration {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 874px;
   margin: 0 auto;
   padding: 32px;
@@ -668,6 +670,7 @@ input[type=search]::-webkit-search-results-decoration {
   .card {
     width: 49%;
     margin-right: 0 !important;
+    margin-bottom: 25px !important;
   }
 
   .our-products .row {
@@ -698,6 +701,11 @@ input[type=search]::-webkit-search-results-decoration {
   }
   .site-intro__right div:last-child {
     font-size: 30px;
+  }
+}
+@media only screen and (max-width: 1130px) {
+  .shoe-covers {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 1100px) {
@@ -757,9 +765,46 @@ input[type=search]::-webkit-search-results-decoration {
   .site-intro__right {
     width: 100%;
   }
+
+  .shoe-covers__info {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .shoe-covers__info h3 {
+    display: inline-block;
+    word-break: break-word;
+    width: auto;
+  }
+
+  .shoe-covers {
+    margin-bottom: 30px;
+  }
+  .shoe-covers img {
+    display: block;
+    margin-left: auto;
+  }
+
+  .medical-masks {
+    width: 100%;
+    border-radius: 8px;
+  }
 }
 @media only screen and (max-width: 830px) {
   .card {
+    width: 100%;
+  }
+
+  .medical-masks__info {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .medical-masks img {
+    margin-left: auto;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .shoe-covers img {
     width: 100%;
   }
 }
@@ -810,6 +855,11 @@ input[type=search]::-webkit-search-results-decoration {
 @media only screen and (max-width: 400px) {
   .site-logo img {
     width: 140px;
+  }
+
+  .medical-masks img {
+    width: 100%;
+    height: auto;
   }
 }
 

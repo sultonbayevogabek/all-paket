@@ -2,6 +2,7 @@
    .card {
       width: 49%;
       margin-right: 0!important;
+      margin-bottom: 25px!important;
    }
 
    .our-products .row {
@@ -40,6 +41,11 @@
       div:last-child {
          font-size: 30px;
       }
+   }
+}
+@include media(1130px) {
+   .shoe-covers {
+      width: 100%;
    }
 }
 
@@ -102,10 +108,49 @@
    .site-intro__right {
       width: 100%;
    }
+
+   .shoe-covers__info {
+      width: 100%;
+      margin-bottom: 30px;
+
+      h3 {
+         display: inline-block;
+         word-break: break-word;
+         width: auto;
+      }
+   }
+
+   .shoe-covers {
+      margin-bottom: 30px;
+      img {
+         display: block;
+         margin-left: auto;
+      }
+   }
+
+   .medical-masks {
+      width: 100%;
+      border-radius: 8px;
+   }
 }
 
 @include media(830px) {
    .card {
+      width: 100%;
+   }
+
+   .medical-masks__info {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+
+   .medical-masks img {
+      margin-left: auto;
+   }
+}
+
+@include media(540px) {
+   .shoe-covers img {
       width: 100%;
    }
 }
@@ -163,5 +208,10 @@
 @include media(400px) {
    .site-logo img {
       width: 140px;
+   }
+
+   .medical-masks img {
+      width: 100%;
+      height: auto;
    }
 }
