@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
    };
 
    function scrollFunction() {
-      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
          scrollBtn.style.display = "block"
       } else {
          scrollBtn.style.display = "none"
