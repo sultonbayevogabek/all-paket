@@ -1,0 +1,41 @@
+.greenhouse {
+   margin-top: -48px;
+   padding-top: 88px;
+   padding-bottom: 40px;
+   background: linear-gradient(269.67deg, #01F6F6 0.29%, #0197F6 99.71%);
+
+   .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+   }
+}
+
+.greenhouse__info {
+   width: 340px;
+
+   h3 {
+      width: auto;
+      margin-bottom: 32px;
+   }
+
+   .shoe-covers__ul {
+      margin-bottom: 32px;
+   }
+}
+
+.greenhouse__gallery {
+   .row:first-child {
+      align-items: flex-end;
+      margin-bottom: 22px;
+   }
+
+   .row:last-child {
+      align-items: flex-start;
+   }
+
+   img:first-child {
+      margin-right: 22px;
+   }
+}
