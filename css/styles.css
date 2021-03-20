@@ -771,9 +771,7 @@ input[type=search]::-webkit-search-results-decoration {
     margin-bottom: 30px;
   }
   .shoe-covers__info h3 {
-    display: inline-block;
-    word-break: break-word;
-    width: auto;
+    width: 100%;
   }
 
   .shoe-covers {
@@ -797,6 +795,9 @@ input[type=search]::-webkit-search-results-decoration {
   .medical-masks__info {
     width: 100%;
     margin-bottom: 30px;
+  }
+  .medical-masks__info h3 {
+    width: 100%;
   }
 
   .medical-masks img {
