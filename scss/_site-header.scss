@@ -13,6 +13,10 @@
    margin-left: auto;
 }
 
+.site-nav-open {
+   left: 0!important;
+}
+
 .site-nav__ul {
    display: flex;
    align-items: center;
@@ -165,4 +169,19 @@
    to {
       transform: translateX(100%);
    }
+}
+
+.menu-bar {
+   width: 28px;
+   height: 22px;
+   display: none;
+   flex-direction: column;
+   justify-content: space-between;
+   cursor: pointer;
+}
+
+.menu-bar__item {
+   height: 4px;
+   background-color: $BLACK-OTHER;
+   border-radius: 2px;
 }

@@ -129,4 +129,18 @@ document.addEventListener('DOMContentLoaded', () => {
          isSearchInputOpen = !isSearchInputOpen
       }
    })
+
+   //navigation bar
+   const menuBar = selectElement('.menu-bar'),
+      siteNav = selectElement('.site-nav')
+
+   menuBar.addEventListener('click', () => {
+      siteNav.classList.toggle('site-nav-open')
+
+      if (siteNav.classList.contains('site-nav-open')) {
+         document.body.style.overflow = 'hidden'
+      } else {
+         document.body.style.overflow = ''
+      }
+   })
 })

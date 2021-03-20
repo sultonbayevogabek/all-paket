@@ -1,0 +1,55 @@
+@include media(1100px) {
+   .site-nav {
+      position: fixed;
+      top: 78px;
+      left: -100%;
+      width: 100%;
+      height: calc(100vh - 78px);
+      background: linear-gradient(269.67deg, #01F6F6 0.29%, #0197F6 99.71%);
+      transition: 0.5s all linear;
+   }
+
+   .site-nav__li {
+      width: 50%;
+      border-right: 1px solid $WHITE;
+      border-bottom: 1px solid $WHITE;
+   }
+
+   .site-nav__link {
+      width: 100%;
+      color: $WHITE;
+   }
+
+   .menu-bar {
+      display: flex;
+   }
+
+   .search-language {
+      margin-left: auto;
+   }
+
+   .search-button {
+      margin-right: 0;
+   }
+
+   .search-form {
+      right: -40px;
+   }
+
+   .custom-select {
+      margin-right: 16px;
+   }
+}
+
+@include media(450px) {
+   .site-nav__li {
+      width: 100%;
+      border-right: none;
+   }
+}
+
+@include media(400px) {
+   .site-logo img {
+      width: 140px;
+   }
+}

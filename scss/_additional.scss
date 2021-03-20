@@ -1,6 +1,7 @@
 .additional {
    position: relative;
    z-index: 2;
+
    h2 {
       color: $SECTION-HEADING-COLOR;
       border-color: $MAIN-LIGHT-GREEN;
@@ -43,6 +44,10 @@
       text-transform: uppercase;
       color: $MAIN-BLUE;
       cursor: pointer;
+   }
+
+   button:hover {
+      background-color: darken($WHITE, 4);
    }
 }
 
@@ -96,5 +101,9 @@
       text-transform: uppercase;
       color: $MAIN-LIGHT-GREEN;
       cursor: pointer;
+   }
+
+   button:hover {
+      background-color: darken($WHITE, 4);
    }
 }

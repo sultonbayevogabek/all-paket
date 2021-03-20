@@ -83,6 +83,10 @@ input[type=search]::-webkit-search-results-decoration {
   margin-left: auto;
 }
 
+.site-nav-open {
+  left: 0 !important;
+}
+
 .site-nav__ul {
   display: flex;
   align-items: center;
@@ -234,6 +238,21 @@ input[type=search]::-webkit-search-results-decoration {
     transform: translateX(100%);
   }
 }
+.menu-bar {
+  width: 28px;
+  height: 22px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.menu-bar__item {
+  height: 4px;
+  background-color: #050517;
+  border-radius: 2px;
+}
+
 .site-intro {
   padding-top: 225px;
   padding-bottom: 305px;
@@ -498,6 +517,9 @@ input[type=search]::-webkit-search-results-decoration {
   color: #0197F6;
   cursor: pointer;
 }
+.shoe-covers__info button:hover {
+  background-color: whitesmoke;
+}
 
 .shoe-covers__ul {
   margin-bottom: 16px;
@@ -547,6 +569,9 @@ input[type=search]::-webkit-search-results-decoration {
   text-transform: uppercase;
   color: #03CEA4;
   cursor: pointer;
+}
+.medical-masks__info button:hover {
+  background-color: whitesmoke;
 }
 
 .greenhouse {
@@ -637,6 +662,60 @@ input[type=search]::-webkit-search-results-decoration {
 }
 .site-footer__socials li {
   margin-right: 16px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .site-nav {
+    position: fixed;
+    top: 78px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 78px);
+    background: linear-gradient(269.67deg, #01F6F6 0.29%, #0197F6 99.71%);
+    transition: 0.5s all linear;
+  }
+
+  .site-nav__li {
+    width: 50%;
+    border-right: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+  }
+
+  .site-nav__link {
+    width: 100%;
+    color: #FFFFFF;
+  }
+
+  .menu-bar {
+    display: flex;
+  }
+
+  .search-language {
+    margin-left: auto;
+  }
+
+  .search-button {
+    margin-right: 0;
+  }
+
+  .search-form {
+    right: -40px;
+  }
+
+  .custom-select {
+    margin-right: 16px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .site-nav__li {
+    width: 100%;
+    border-right: none;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .site-logo img {
+    width: 140px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
