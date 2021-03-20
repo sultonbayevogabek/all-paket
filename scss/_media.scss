@@ -8,6 +8,19 @@
    .our-products .row {
       justify-content: space-between;
    }
+
+   .site-footer__info {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+
+   .site-footer__ul {
+      margin-bottom: 50px;
+   }
+
+   .site-footer iframe {
+      width: 100%;
+   }
 }
 
 @include media(1300px) {
@@ -40,6 +53,23 @@
 
       div:last-child {
          font-size: 30px;
+      }
+   }
+}
+
+@include media(1170px) {
+   .greenhouse__info {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+
+   .greenhouse__gallery {
+      width: 100%;
+      img {
+         margin-right: 0!important;
+         margin-bottom: 20px;
+         width: 100%;
+         height: auto;
       }
    }
 }
@@ -198,6 +228,10 @@
    }
 
    .our-products {
+      padding-top: 30px;
+   }
+
+   .site-footer {
       padding-top: 30px;
    }
 }

@@ -676,6 +676,19 @@ input[type=search]::-webkit-search-results-decoration {
   .our-products .row {
     justify-content: space-between;
   }
+
+  .site-footer__info {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .site-footer__ul {
+    margin-bottom: 50px;
+  }
+
+  .site-footer iframe {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 1300px) {
   .site-intro {
@@ -701,6 +714,22 @@ input[type=search]::-webkit-search-results-decoration {
   }
   .site-intro__right div:last-child {
     font-size: 30px;
+  }
+}
+@media only screen and (max-width: 1170px) {
+  .greenhouse__info {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .greenhouse__gallery {
+    width: 100%;
+  }
+  .greenhouse__gallery img {
+    margin-right: 0 !important;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
   }
 }
 @media only screen and (max-width: 1130px) {
@@ -844,6 +873,10 @@ input[type=search]::-webkit-search-results-decoration {
   }
 
   .our-products {
+    padding-top: 30px;
+  }
+
+  .site-footer {
     padding-top: 30px;
   }
 }
