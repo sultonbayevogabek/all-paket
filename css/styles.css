@@ -664,6 +664,16 @@ input[type=search]::-webkit-search-results-decoration {
   margin-right: 16px;
 }
 
+@media only screen and (max-width: 1346px) {
+  .card {
+    width: 49%;
+    margin-right: 0 !important;
+  }
+
+  .our-products .row {
+    justify-content: space-between;
+  }
+}
 @media only screen and (max-width: 1300px) {
   .site-intro {
     padding-top: 100px;
@@ -748,6 +758,11 @@ input[type=search]::-webkit-search-results-decoration {
     width: 100%;
   }
 }
+@media only screen and (max-width: 830px) {
+  .card {
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 480px) {
   .site-intro__left h1 {
     font-size: 30px !important;
@@ -780,6 +795,10 @@ input[type=search]::-webkit-search-results-decoration {
     font-size: 25px;
     border-bottom-width: 4px;
     word-break: break-word;
+  }
+
+  .our-products {
+    padding-top: 30px;
   }
 }
 @media only screen and (max-width: 450px) {

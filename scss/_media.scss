@@ -1,3 +1,14 @@
+@include media(1346px) {
+   .card {
+      width: 49%;
+      margin-right: 0!important;
+   }
+
+   .our-products .row {
+      justify-content: space-between;
+   }
+}
+
 @include media(1300px) {
    .site-intro {
       padding-top: 100px;
@@ -75,11 +86,12 @@
    }
 }
 
-@include media(1060px){
+@include media(1060px) {
    .site-info {
       background-size: cover;
    }
 }
+
 @include media(1000px) {
    .site-intro__left {
       width: 100%;
@@ -92,15 +104,21 @@
    }
 }
 
+@include media(830px) {
+   .card {
+      width: 100%;
+   }
+}
+
 @include media(480px) {
    .site-intro__left {
       h1 {
-         font-size: 30px!important;
+         font-size: 30px !important;
       }
 
       a {
-         font-size: 14px!important;
-         padding: 10px!important;
+         font-size: 14px !important;
+         padding: 10px !important;
       }
    }
    .site-intro__right {
@@ -108,6 +126,7 @@
          font-size: 180px;
          line-height: 1;
       }
+
       div:last-child {
          font-size: 20px;
       }
@@ -127,6 +146,10 @@
       font-size: 25px;
       border-bottom-width: 4px;
       word-break: break-word;
+   }
+
+   .our-products {
+      padding-top: 30px;
    }
 }
 
