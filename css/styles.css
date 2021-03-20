@@ -664,6 +664,32 @@ input[type=search]::-webkit-search-results-decoration {
   margin-right: 16px;
 }
 
+@media only screen and (max-width: 1300px) {
+  .site-intro {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .site-intro .container {
+    align-items: flex-start;
+  }
+
+  .site-intro__left h1 {
+    font-size: 45px !important;
+  }
+  .site-intro__left a {
+    padding: 15px;
+    border: 2px solid #FFFFFF;
+  }
+
+  .site-intro__right div:first-child {
+    font-size: 200px;
+    line-height: 170px;
+  }
+  .site-intro__right div:last-child {
+    font-size: 30px;
+  }
+}
 @media only screen and (max-width: 1100px) {
   .site-nav {
     position: fixed;
@@ -704,6 +730,34 @@ input[type=search]::-webkit-search-results-decoration {
 
   .custom-select {
     margin-right: 16px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .site-intro__left {
+    width: 100%;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .site-intro__right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .site-intro__left h1 {
+    font-size: 30px !important;
+  }
+  .site-intro__left a {
+    font-size: 14px !important;
+    padding: 10px !important;
+  }
+
+  .site-intro__right div:first-child {
+    font-size: 150px;
+    line-height: 1;
+  }
+  .site-intro__right div:last-child {
+    font-size: 20px;
   }
 }
 @media only screen and (max-width: 450px) {
