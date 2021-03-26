@@ -1,64 +1,64 @@
 .site-intro {
-   padding-top: 225px;
-   padding-bottom: 305px;
-   background-image: url('../img/bg-header.png');
-   background-size: cover;
-   background-position: bottom center;
+  padding-top: 225px;
+  padding-bottom: 305px;
+  background-image: url('../img/bg-header.png');
+  background-size: cover;
+  background-position: bottom center;
 
-   .container {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-   }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 }
 
 .site-intro__left {
-   width: 661px;
+  width: 661px;
 
-   h1 {
-      margin-bottom: 40px;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 800;
-      font-size: 64px;
-      line-height: 128%;
-      text-transform: capitalize;
-      color: $WHITE;
-   }
+  h1 {
+    margin-bottom: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 128%;
+    text-transform: capitalize;
+    color: $WHITE;
+  }
 
-   a {
-      padding: 16px 32px;
-      font-family: "Poppins", sans-serif;
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 24px;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      color: $WHITE;
-      border: 3px solid $WHITE;
-      transition: 0.3s all ease;
-   }
+  a {
+    padding: 16px 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $WHITE;
+    border: 3px solid $WHITE;
+    transition: 0.3s all ease;
+  }
 
-   a:hover {
-      background: linear-gradient(89.92deg, #00B892 0.1%, #03CEA4 88.39%);
-   }
+  a:hover {
+    background: linear-gradient(89.92deg, #00B892 0.1%, #03CEA4 88.39%);
+  }
 }
 
 .site-intro__right {
-   font-family: "Montserrat", sans-serif;
-   text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 
-   div:first-child {
-      font-weight: 800;
-      font-size: 320px;
-      line-height: 100%;
-      color: $MAIN-YELLOW;
-   }
-   
-   div:last-child {
-      font-weight: 600;
-      font-size: 40px;
-      line-height: 60px;
-      color: $WHITE;
-   }
+  div:first-child {
+    font-weight: 800;
+    font-size: 320px;
+    line-height: 100%;
+    color: $MAIN-YELLOW;
+  }
+
+  div:last-child {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: $WHITE;
+  }
 }

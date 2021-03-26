@@ -50,6 +50,11 @@ input:focus, button:focus, textarea:focus {
    padding: 0 15px;
 }
 
+.outer-container {
+   max-width: 1920px;
+   margin: 0 auto;
+}
+
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,

@@ -1,9 +1,14 @@
 .site-info {
    position: relative;
-   background-image: url("../img/bg-info.png");
-   background-repeat: no-repeat;
-   background-position: right center;
-   background-size: contain;
+
+   background: linear-gradient(89.92deg, #00B892 0.1%, #03CEA4 50%, #03CEA4 50%);
+
+   .outer-container {
+      background-image: url("../img/bg-info.png");
+      background-repeat: no-repeat;
+      background-position: right center;
+      background-size: contain;
+   }
 }
 
 .site-info__left {
@@ -42,5 +47,5 @@
    right: 0;
    bottom: 0;
    z-index: -1;
-   background: linear-gradient(89.92deg, #00B892 0.1%, #03CEA4 50%, #03CEA4 50%);
+
 }

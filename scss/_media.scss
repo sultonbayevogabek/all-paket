@@ -124,8 +124,8 @@
 }
 
 @include media(1060px) {
-   .site-info {
-      background-size: cover;
+   .outer-container {
+      background-size: cover!important;
    }
 }
 
