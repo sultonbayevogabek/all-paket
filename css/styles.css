@@ -829,6 +829,7 @@ input[type=search]::-webkit-search-results-decoration {
 
   .shoe-covers {
     margin-bottom: 30px;
+    padding: 15px;
   }
   .shoe-covers img {
     display: block;
@@ -837,6 +838,7 @@ input[type=search]::-webkit-search-results-decoration {
 
   .medical-masks {
     width: 100%;
+    padding: 15px;
     border-radius: 8px;
   }
 }
