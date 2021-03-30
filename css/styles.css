@@ -195,6 +195,10 @@ input[type=search]::-webkit-search-results-decoration {
   color: #FFFFFF;
 }
 
+.language__item--active {
+  display: none;
+}
+
 .search-form {
   position: absolute;
   top: 85px;

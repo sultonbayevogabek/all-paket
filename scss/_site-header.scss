@@ -105,6 +105,10 @@
    }
 }
 
+.language__item--active {
+   display: none;
+}
+
 .search-form {
    position: absolute;
    top: 85px;

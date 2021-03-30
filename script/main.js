@@ -84,6 +84,37 @@ document.addEventListener('DOMContentLoaded', () => {
       }
    })
 
+   window.addEventListener('click', e => {
+      if (e.target !== languageSelected) {
+         hideLanguageList()
+      }
+   })
+
+   let selectedLanguageIndex
+
+   if (localStorage.getItem('selectedLanguageIndex')) {
+      selectedLanguageIndex = localStorage.getItem('selectedLanguageIndex')
+   } else {
+      selectedLanguageIndex = 0
+   }
+
+   languageSelected.textContent = languageItems[selectedLanguageIndex].dataset.selected
+
+   languageList.addEventListener('click', e => {
+      const target = e.target
+      languageItems.forEach((item, index) => {
+         item.classList.remove('language__item--active')
+
+         if (target === item) {
+            selectedLanguageIndex = index
+            languageSelected.textContent = languageItems[selectedLanguageIndex].dataset.selected
+            localStorage.setItem('selectedLanguageIndex', selectedLanguageIndex)
+         }
+      })
+
+      target.classList.add('language__item--active')
+   })
+
 
    //navigation bar
    const menuBar = selectElement('.menu-bar'),
