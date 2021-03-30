@@ -148,6 +148,53 @@ input[type=search]::-webkit-search-results-decoration {
   align-items: center;
 }
 
+.language {
+  position: relative;
+}
+
+.language__selected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0197F6;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.language__list {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.language__item {
+  padding: 12px 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  cursor: pointer;
+}
+.language__item:hover {
+  background-color: #0197F6;
+  color: #FFFFFF;
+}
+
 .search-form {
   position: absolute;
   top: 85px;
@@ -185,63 +232,6 @@ input[type=search]::-webkit-search-results-decoration {
 
 .hidden {
   display: none;
-}
-
-.custom-select {
-  position: relative;
-  width: 40px;
-}
-
-.custom-select select {
-  display: none;
-}
-
-.select-selected {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #0197F6;
-  font-family: "Open Sans", sans-serif;
-  font-size: 13px;
-  line-height: 24px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  cursor: pointer;
-}
-
-.select-items div {
-  padding: 12px 16px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  cursor: pointer;
-}
-
-.select-items {
-  position: absolute;
-  background-color: #FFFFFF;
-  top: 100%;
-  right: 0;
-  z-index: 99;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.select-hide {
-  display: none;
-}
-
-.select-items div:hover, .same-as-selected {
-  background-color: #0197F6;
-  color: #FFFFFF;
 }
 
 @keyframes search-input-open {
