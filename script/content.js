@@ -119,7 +119,7 @@ const content = [
         site_nav: ['Bizning mahsulotlar', 'Ishlab chiqarish', 'Bog\'lanish'],
         site_intro: {
             title: 'Toshkentning qulay narxlardagi eng zo\'r paketlari',
-            button_text: 'Batafsil',
+            button_text: 'Qo\'shimcha ma\'lumot olish',
             in_market: 'yil bozorda'
         },
         site_info: {
