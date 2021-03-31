@@ -193,7 +193,7 @@ const content = [
         additional: {
             title: 'Qo`shimcha',
             shoe_covers: {
-                title: 'Tibbiy shippaklar',
+                title: 'Bahilalar',
                 data: [
                     {key: 'Ko`rinishi', value: 'Bir martalik himoya vositasi'},
                     {key: 'Standart o`lchami', value: '38х45 | 17 mkm, 20 mkm, 30 mkm'},
