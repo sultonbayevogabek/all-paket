@@ -117,12 +117,12 @@ const content = [
     {
         site_nav: ['Bizning mahsulotlar', 'Ishlab chiqarish', 'Bog`lanish'],
         site_intro: {
-            title: 'Toshkent qulay narxlardagi eng zo`r paketlari',
-            button_text: 'Ko`proq Bilish',
+            title: 'Toshkentning qulay narxlardagi eng zo`r paketlari',
+            button_text: 'Batafsil',
             in_market: 'yil bozorda'
         },
         site_info: {
-            title: 'Fleksografik va o`chmaydigan bosma',
+            title: 'Fleksografik va o`chib ketmaydigan bosma',
             links: ['Bizning paketlar', 'Qo`shimcha tovarlar', 'Poleitilen plyonkalar', 'Biz bilan bog`lanish']
         },
         our_products: {
@@ -134,10 +134,10 @@ const content = [
                     data: [
                         {
                             key: 'Materiali',
-                            value: 'polietilen PND 12 mkm (2 kilogramgacha ko`taradi) dan 30 mkm (25 kilogramgacha ko`taradi) gacha'
+                            value: 'polietilen PND 12 mkm (2 kilogramgacha yuk ko`tara oladi) dan 30 mkm (25 kilogramgacha yuk ko`tara oladi) gacha'
                         },
                         {key: 'Tiraji', value: '200 kilogramdan'},
-                        {key: 'Bosma', value: '4 xil rangacha'}
+                        {key: 'Bosmasi', value: '4 xil rangda'}
                     ]
                 },
                 {
@@ -146,25 +146,25 @@ const content = [
                     data: [
                         {key: 'Materiali', value: 'PSD, PVD'},
                         {key: 'Tiraji', value: '150 kilogramdan'},
-                        {key: 'Bosma', value: 'Sizning tanlovingizga qarab'}
+                        {key: 'Bosmasi', value: 'Tanlovingizga qarab'}
                     ]
                 },
                 {
                     img: 'img/our_products/three.png',
-                    title: 'Axlat uchun paketlar',
+                    title: 'Chiqindi uchun paketlar',
                     data: [
                         {key: 'Materiali', value: 'PND polietileni, PSD, PVD, polipropilen'},
                         {key: 'Tiraji', value: '150 kilogramdan'},
-                        {key: 'Bosma', value: 'fleksografik 6 xil rangacha'}
+                        {key: 'Bosmasi', value: 'fleksografik, 6 xil rangda'}
                     ]
                 },
                 {
                     img: 'img/our_products/four.png',
-                    title: 'Issiqlik plyonkalari',
+                    title: 'Issiqqa chidamli plyonkalar',
                     data: [
                         {key: 'Materiali', value: 'PND polietileni, PSD, PVD, polipropilen'},
                         {key: 'Tiraji', value: '200 kilogramdan'},
-                        {key: 'Bosma', value: '4 xil rangacha'}
+                        {key: 'Bosmasi', value: '4 xil rangda'}
                     ]
                 },
                 {
@@ -173,10 +173,10 @@ const content = [
                     data: [
                         {
                             key: 'Materiali',
-                            value: 'polietilen PND 12 mkm (2 kilogramgacha ko`taradi) dan 30 mkm (25 kilogramgacha ko`taradi) gacha'
+                            value: 'polietilen PND 12 mkm(2 kilogramgacha yuk ko`tara oladi)dan 30 mkm(25 kilogramgacha yuk ko`tara oladi)gacha'
                         },
                         {key: 'Tiraji', value: '150 kilogramdan'},
-                        {key: 'Bosma', value: '4 xil rangacha'}
+                        {key: 'Bosmasi', value: '4 xil rangda'}
                     ]
                 },
                 {
@@ -184,46 +184,46 @@ const content = [
                     title: 'To`ldiruvchi paketlar',
                     data: [
                         {key: 'Materiali', value: 'PND polietileni, PSD, PVD, polipropilen'},
-                        {key: 'Tiraji', value: 'от 200 кг'},
-                        {key: 'Bosma', value: 'Цвет упаковки: в зависимости от заказа'}
+                        {key: 'Tiraji', value: '200 kilgoramdan'},
+                        {key: 'Bosmasi', value: 'Qadoq rangi: buyurtmadan kelib chiqqan holda'}
                     ]
                 }
             ]
         },
         additional: {
-            title: 'Дополнительно',
+            title: 'Qo`shimcha',
             shoe_covers: {
-                title: 'Бахилы',
+                title: 'Tibbiy shippaklar',
                 data: [
-                    {key: 'Виды', value: 'Одноразовые средства защиты'},
-                    {key: 'Стандартный размер', value: '38х45 | 17 мкм, 20 мкм, 30 мкм'},
-                    {key: 'Материал', value: 'Полиэтилен, с резинкой'},
-                    {key: 'Тираж', value: 'от 100 кг'},
-                    {key: 'Цвет упаковки', value: 'синий, зеленый, красный, фиолетовый'},
-                    {key: 'Особенности', value: 'Необходимое средство защиты обуви'}
+                    {key: 'Ko`rinishi', value: 'Bir martalik himoya vositasi'},
+                    {key: 'Standart o`lchami', value: '38х45 | 17 mkm, 20 mkm, 30 mkm'},
+                    {key: 'Materiali', value: 'Rezinali polietilen'},
+                    {key: 'Tiraji', value: '100 kilogramdan'},
+                    {key: 'Qadoq rangi', value: 'ko`k, yashil, qizil, binafsha'},
+                    {key: 'Xususiyati', value: 'Oyoq kiyimlarini yopib turish uchun vosita'}
                 ]
             },
             masks: {
-                title: 'Медицинские маски',
+                title: 'Tibbiy niqoblar',
                 data: [
-                    {key: 'Виды', value: 'Одноразовые средства защиты'},
-                    {key: 'Стандартный размер', value: '38х45 | 17 мкм, 20 мкм, 30 мкм'},
-                    {key: 'Материал', value: 'Полиэтилен, с резинкой'},
-                    {key: 'Тираж', value: 'от 100 кг'}
+                    {key: 'Ko`rinishi', value: 'Bir martalik himoya vositasi'},
+                    {key: 'Standart o`lchami', value: '38х45 | 17 mkm, 20 mkm, 30 mkm'},
+                    {key: 'Materiali', value: 'Rezinali polietilen'},
+                    {key: 'Tiraji', value: '100 kilogramdan'}
                 ]
             }
         },
         greenhouse: {
-            title: 'Тепличные плёнки',
+            title: 'Issiqxona plyonkalari',
             data: [
-                {key: 'Материал', value: 'полиэтилен ПНД'},
-                {key: 'Тираж', value: 'от 1 до 6 метров'},
-                {key: 'Печать', value: 'до 4 цветов'},
+                {key: 'Materiali', value: 'PND polietilen'},
+                {key: 'Tiraji', value: '1 dan 6 metrgacha'},
+                {key: 'Bosmasi', value: '4 xil rangda'},
             ]
         },
         contact_us: {
-            title: 'Свяжи тесь с нами',
-            address: 'Ташкентcкая  область, Назарбекский округ, Харакат МФЙ '
+            title: 'Biz bilan bog`laning',
+            address: 'Toshkent viloyati, Nazarbek mavzesi, Harakat MFY '
         },
         order: 'Buyurtma qilish'
     },
