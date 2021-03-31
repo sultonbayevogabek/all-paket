@@ -8,7 +8,6 @@ html {
 *::after,
 *::before {
   box-sizing: inherit;
-  user-select: none;
 }
 
 img {
@@ -793,7 +792,7 @@ input[type=search]::-webkit-search-results-decoration {
     right: -40px;
   }
 
-  .custom-select {
+  .language {
     margin-right: 16px;
   }
 }

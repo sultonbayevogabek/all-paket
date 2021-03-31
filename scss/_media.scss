@@ -1,263 +1,264 @@
 @include media(1346px) {
-   .card {
-      width: 49%;
-      margin-right: 0 !important;
-      margin-bottom: 25px !important;
-   }
+  .card {
+    width: 49%;
+    margin-right: 0 !important;
+    margin-bottom: 25px !important;
+  }
 
-   .our-products .row {
-      justify-content: space-between;
-   }
+  .our-products .row {
+    justify-content: space-between;
+  }
 
-   .site-footer__info {
-      width: 100%;
-      margin-bottom: 30px;
-   }
+  .site-footer__info {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 
-   .site-footer__ul {
-      margin-bottom: 50px;
-   }
+  .site-footer__ul {
+    margin-bottom: 50px;
+  }
 
-   .site-footer iframe {
-      width: 100%;
-   }
+  .site-footer iframe {
+    width: 100%;
+  }
 }
 
 @include media(1300px) {
-   .site-intro {
-      padding-top: 100px;
-      padding-bottom: 100px;
-   }
+  .site-intro {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
-   .site-intro .container {
-      align-items: flex-start;
-   }
+  .site-intro .container {
+    align-items: flex-start;
+  }
 
-   .site-intro__left {
-      h1 {
-         font-size: 45px !important;
-      }
+  .site-intro__left {
+    h1 {
+      font-size: 45px !important;
+    }
 
-      a {
-         padding: 15px;
-         border: 2px solid $WHITE;
-      }
-   }
+    a {
+      padding: 15px;
+      border: 2px solid $WHITE;
+    }
+  }
 
 
-   .site-intro__right {
-      div:first-child {
-         font-size: 200px;
-         line-height: 170px;
-      }
+  .site-intro__right {
+    div:first-child {
+      font-size: 200px;
+      line-height: 170px;
+    }
 
-      div:last-child {
-         font-size: 30px;
-      }
-   }
+    div:last-child {
+      font-size: 30px;
+    }
+  }
 }
 
 @include media(1170px) {
-   .greenhouse__info {
-      width: 100%;
-      margin-bottom: 30px;
-   }
+  .greenhouse__info {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 
-   .greenhouse__gallery {
+  .greenhouse__gallery {
+    width: 100%;
+
+    img {
+      margin-right: 0 !important;
+      margin-bottom: 20px;
       width: 100%;
-      img {
-         margin-right: 0!important;
-         margin-bottom: 20px;
-         width: 100%;
-         height: auto;
-      }
-   }
+      height: auto;
+    }
+  }
 }
 
 @include media(1130px) {
-   .shoe-covers {
-      width: 100%;
-   }
+  .shoe-covers {
+    width: 100%;
+  }
 }
 
 @include media(1100px) {
-   .site-nav {
-      position: fixed;
-      top: 78px;
-      left: -100%;
-      width: 100%;
-      height: calc(100vh - 78px);
-      background: linear-gradient(269.67deg, #01F6F6 0.29%, #0197F6 99.71%);
-      transition: 0.5s all linear;
-   }
+  .site-nav {
+    position: fixed;
+    top: 78px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 78px);
+    background: linear-gradient(269.67deg, #01F6F6 0.29%, #0197F6 99.71%);
+    transition: 0.5s all linear;
+  }
 
-   .site-nav__li {
-      width: 50%;
-      border-right: 1px solid $WHITE;
-      border-bottom: 1px solid $WHITE;
-   }
+  .site-nav__li {
+    width: 50%;
+    border-right: 1px solid $WHITE;
+    border-bottom: 1px solid $WHITE;
+  }
 
-   .site-nav__link {
-      width: 100%;
-      color: $WHITE;
-   }
+  .site-nav__link {
+    width: 100%;
+    color: $WHITE;
+  }
 
-   .menu-bar {
-      display: flex;
-   }
+  .menu-bar {
+    display: flex;
+  }
 
-   .search-language {
-      margin-left: auto;
-   }
+  .search-language {
+    margin-left: auto;
+  }
 
-   .search-button {
-      margin-right: 0;
-   }
+  .search-button {
+    margin-right: 0;
+  }
 
-   .search-form {
-      right: -40px;
-   }
+  .search-form {
+    right: -40px;
+  }
 
-   .custom-select {
-      margin-right: 16px;
-   }
+  .language {
+    margin-right: 16px;
+  }
 }
 
 @include media(1060px) {
-   .outer-container {
-      background-size: cover!important;
-   }
+  .outer-container {
+    background-size: cover !important;
+  }
 }
 
 @include media(1000px) {
-   .site-intro__left {
+  .site-intro__left {
+    width: 100%;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .site-intro__right {
+    width: 100%;
+  }
+
+  .shoe-covers__info {
+    width: 100%;
+    margin-bottom: 30px;
+
+    h3 {
       width: 100%;
-      margin-bottom: 60px;
-      text-align: center;
-   }
+    }
+  }
 
-   .site-intro__right {
-      width: 100%;
-   }
+  .shoe-covers {
+    margin-bottom: 30px;
+    padding: 15px;
 
-   .shoe-covers__info {
-      width: 100%;
-      margin-bottom: 30px;
+    img {
+      display: block;
+      margin-left: auto;
+    }
+  }
 
-      h3 {
-         width: 100%;
-      }
-   }
-
-   .shoe-covers {
-      margin-bottom: 30px;
-      padding: 15px;
-
-      img {
-         display: block;
-         margin-left: auto;
-      }
-   }
-
-   .medical-masks {
-      width: 100%;
-      padding: 15px;
-      border-radius: 8px;
-   }
+  .medical-masks {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+  }
 }
 
 @include media(830px) {
-   .card {
+  .card {
+    width: 100%;
+  }
+
+  .card-body {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+
+  .medical-masks__info {
+    width: 100%;
+    margin-bottom: 30px;
+
+    h3 {
       width: 100%;
-   }
+    }
+  }
 
-   .card-body {
-      padding-left: 15px;
-      padding-right: 15px;
-      padding-bottom: 15px;
-   }
-
-   .medical-masks__info {
-      width: 100%;
-      margin-bottom: 30px;
-
-      h3 {
-         width: 100%;
-      }
-   }
-
-   .medical-masks img {
-      margin-left: auto;
-   }
+  .medical-masks img {
+    margin-left: auto;
+  }
 }
 
 @include media(540px) {
-   .shoe-covers img {
-      width: 100%;
-   }
+  .shoe-covers img {
+    width: 100%;
+  }
 }
 
 @include media(480px) {
-   .site-intro__left {
-      h1 {
-         font-size: 30px !important;
-      }
+  .site-intro__left {
+    h1 {
+      font-size: 30px !important;
+    }
 
-      a {
-         font-size: 14px !important;
-         padding: 10px !important;
-      }
-   }
-   .site-intro__right {
-      div:first-child {
-         font-size: 180px;
-         line-height: 1;
-      }
+    a {
+      font-size: 14px !important;
+      padding: 10px !important;
+    }
+  }
+  .site-intro__right {
+    div:first-child {
+      font-size: 180px;
+      line-height: 1;
+    }
 
-      div:last-child {
-         font-size: 20px;
-      }
-   }
-   .site-info__left {
-      width: 100%;
-      padding-top: 30px;
-      padding-bottom: 30px;
-   }
+    div:last-child {
+      font-size: 20px;
+    }
+  }
+  .site-info__left {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 
-   .site-info__link {
-      font-size: 16px;
-      line-height: 120%;
-   }
+  .site-info__link {
+    font-size: 16px;
+    line-height: 120%;
+  }
 
-   .section-title {
-      font-size: 25px;
-      border-bottom-width: 4px;
-      word-break: break-word;
-   }
+  .section-title {
+    font-size: 25px;
+    border-bottom-width: 4px;
+    word-break: break-word;
+  }
 
-   .our-products {
-      padding-top: 30px;
-   }
+  .our-products {
+    padding-top: 30px;
+  }
 
-   .site-footer {
-      padding-top: 30px;
-   }
+  .site-footer {
+    padding-top: 30px;
+  }
 }
 
 @include media(450px) {
-   .site-nav__li {
-      width: 100%;
-      border-right: none;
-   }
+  .site-nav__li {
+    width: 100%;
+    border-right: none;
+  }
 }
 
 @include media(400px) {
-   .site-logo img {
-      width: 140px;
-   }
+  .site-logo img {
+    width: 140px;
+  }
 
-   .medical-masks img {
-      width: 100%;
-      height: auto;
-   }
+  .medical-masks img {
+    width: 100%;
+    height: auto;
+  }
 }

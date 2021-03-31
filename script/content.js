@@ -15,7 +15,7 @@ const content = [
             title: 'Наши товары',
             cards: [
                 {
-                    img: 'img/our_products/one.png',
+                    img: 'img/our_products/one.jpg',
                     title: 'Пакет майка',
                     data: [
                         {
@@ -27,7 +27,7 @@ const content = [
                     ]
                 },
                 {
-                    img: 'img/our_products/two.png',
+                    img: 'img/our_products/two.jpg',
                     title: 'Рулоны',
                     data: [
                         {key: 'Материал', value: 'ПСД, ПВД'},
@@ -36,7 +36,7 @@ const content = [
                     ]
                 },
                 {
-                    img: 'img/our_products/three.png',
+                    img: 'img/our_products/three.jpg',
                     title: 'Мешки для мусора',
                     data: [
                         {key: 'Материал', value: 'полиэтилен ПНД, ПСД, ПВД, полипропилен'},
@@ -45,7 +45,7 @@ const content = [
                     ]
                 },
                 {
-                    img: 'img/our_products/four.png',
+                    img: 'img/our_products/four.jpg',
                     title: 'термусадочная плёнка',
                     data: [
                         {key: 'Материал', value: 'полиэтилен ПНД, ПСД, ПВД, полипропилен'},
@@ -54,7 +54,7 @@ const content = [
                     ]
                 },
                 {
-                    img: 'img/our_products/five.png',
+                    img: 'img/our_products/five.jpg',
                     title: 'Пакет "Рейтер"',
                     data: [
                         {
@@ -66,7 +66,7 @@ const content = [
                     ]
                 },
                 {
-                    img: 'img/our_products/six.png',
+                    img: 'img/our_products/six.jpg',
                     title: 'Фасовочные пакеты',
                     data: [
                         {key: 'Материал', value: ' полиэтилен ПНД, ПСД, ПВД, полипропилен'},
@@ -111,25 +111,26 @@ const content = [
             title: 'Свяжи тесь с нами',
             address: 'Ташкентcкая  область, Назарбекский округ, Харакат МФЙ '
         },
-        order: 'Заказать'
+        order: 'Заказать',
+        search: 'Поиск'
     },
     //O`Z
     {
-        site_nav: ['Bizning mahsulotlar', 'Ishlab chiqarish', 'Bog`lanish'],
+        site_nav: ['Bizning mahsulotlar', 'Ishlab chiqarish', 'Bog\'lanish'],
         site_intro: {
-            title: 'Toshkentning qulay narxlardagi eng zo`r paketlari',
+            title: 'Toshkentning qulay narxlardagi eng zo\'r paketlari',
             button_text: 'Batafsil',
             in_market: 'yil bozorda'
         },
         site_info: {
-            title: 'Fleksografik va o`chib ketmaydigan bosma',
+            title: 'Fleksografik va o\'chib ketmaydigan bosma',
             links: ['Bizning paketlar', 'Qo`shimcha tovarlar', 'Poleitilen plyonkalar', 'Biz bilan bog`lanish']
         },
         our_products: {
             title: 'Bizning tovarlar',
             cards: [
                 {
-                    img: 'img/our_products/one.png',
+                    img: 'img/our_products/one.jpg',
                     title: 'Paket mayka',
                     data: [
                         {
@@ -141,7 +142,7 @@ const content = [
                     ]
                 },
                 {
-                    img: 'img/our_products/two.png',
+                    img: 'img/our_products/two.jpg',
                     title: 'Rulonlar',
                     data: [
                         {key: 'Materiali', value: 'PSD, PVD'},
@@ -150,7 +151,7 @@ const content = [
                     ]
                 },
                 {
-                    img: 'img/our_products/three.png',
+                    img: 'img/our_products/three.jpg',
                     title: 'Chiqindi uchun paketlar',
                     data: [
                         {key: 'Materiali', value: 'PND polietileni, PSD, PVD, polipropilen'},
@@ -159,7 +160,7 @@ const content = [
                     ]
                 },
                 {
-                    img: 'img/our_products/four.png',
+                    img: 'img/our_products/four.jpg',
                     title: 'Issiqqa chidamli plyonkalar',
                     data: [
                         {key: 'Materiali', value: 'PND polietileni, PSD, PVD, polipropilen'},
@@ -168,7 +169,7 @@ const content = [
                     ]
                 },
                 {
-                    img: 'img/our_products/five.png',
+                    img: 'img/our_products/five.jpg',
                     title: '"Reyter" paketi',
                     data: [
                         {
@@ -180,7 +181,7 @@ const content = [
                     ]
                 },
                 {
-                    img: 'img/our_products/six.png',
+                    img: 'img/our_products/six.jpg',
                     title: 'To`ldiruvchi paketlar',
                     data: [
                         {key: 'Materiali', value: 'PND polietileni, PSD, PVD, polipropilen'},
@@ -225,120 +226,122 @@ const content = [
             title: 'Biz bilan bog`laning',
             address: 'Toshkent viloyati, Nazarbek mavzesi, Harakat MFY '
         },
-        order: 'Buyurtma qilish'
+        order: 'Buyurtma qilish',
+        search: 'Qidirish'
     },
     //EN
     {
-        site_nav: ['Our products', 'Производство', 'Contacts'],
+        site_nav: ['Our products', 'Manufacture', 'Contacts'],
         site_intro: {
-            title: 'Лучшые пакеты Ташкента по лучшым ценам',
-            button_text: 'Узнать Больше',
-            in_market: 'лет на рынке'
+            title: 'Best packages of Tashkent at the best prices',
+            button_text: 'Learn more',
+            in_market: 'years on the market'
         },
         site_info: {
-            title: 'Флексографическая и Глубокая Печать',
-            links: ['Наши пакеты', 'Дополнительные товары', 'Полиетиленовые плёнки', 'Как связатся с нами']
+            title: 'Flexographic and Gravure Printing',
+            links: ['Our packages', 'Additional products', 'Polyethylene films', 'How to contact with us']
         },
         our_products: {
-            title: 'Наши товары',
+            title: 'our products',
             cards: [
                 {
-                    img: 'img/our_products/one.png',
-                    title: 'Пакет майка',
+                    img: 'img/our_products/one.jpg',
+                    title: 'T-shirt package',
                     data: [
                         {
-                            key: 'Материал',
-                            value: 'полиэтилен ПНД от 12 мкм (выдерживает до 2 кг) до 30 мкм (выдерживает до 25 кг)'
+                            key: 'Material',
+                            value: 'Polyethylene PND from 12 microns ( can withstand up to 2 kg) up to 30 microns (can withstand up to 25 kg )'
                         },
-                        {key: 'Тираж', value: 'от 200 кг'},
-                        {key: 'Print', value: 'до 4 цветов'}
+                        {key: 'Circulation', value: 'from 200 kg'},
+                        {key: 'Printing', value: 'up to 4 colors'}
                     ]
                 },
                 {
-                    img: 'img/our_products/two.png',
-                    title: 'Рулоны',
+                    img: 'img/our_products/two.jpg',
+                    title: 'Rools',
                     data: [
-                        {key: 'Материал', value: 'ПСД, ПВД'},
-                        {key: 'Тираж', value: 'от 150 кг'},
-                        {key: 'Печать', value: 'По вашему выбору'}
+                        {key: 'Material', value: 'PSD, PVD'},
+                        {key: 'Circulation', value: 'from 150 kg'},
+                        {key: 'Printing', value: 'According to your choice'}
                     ]
                 },
                 {
-                    img: 'img/our_products/three.png',
-                    title: 'Мешки для мусора',
+                    img: 'img/our_products/three.jpg',
+                    title: 'Garbage bags',
                     data: [
-                        {key: 'Материал', value: 'полиэтилен ПНД, ПСД, ПВД, полипропилен'},
-                        {key: 'Тираж', value: 'от 150 кг'},
-                        {key: 'Печать', value: 'флексографическая до 6 цветов'}
+                        {key: 'Material', value: 'Polyethylene PND, PSD, PVD, polypropylene'},
+                        {key: 'Circulation', value: 'from 150 kg'},
+                        {key: 'Printing', value: 'flexographic up to 6 colors'}
                     ]
                 },
                 {
-                    img: 'img/our_products/four.png',
-                    title: 'термусадочная плёнка',
+                    img: 'img/our_products/four.jpg',
+                    title: 'Thermoshrinkable film',
                     data: [
-                        {key: 'Материал', value: 'полиэтилен ПНД, ПСД, ПВД, полипропилен'},
-                        {key: 'Тираж', value: 'от 200 кг'},
-                        {key: 'Печать', value: 'до 4 цветов'}
+                        {key: 'Material', value: 'Polyethylene PND, PSD, PVD, polypropylene'},
+                        {key: 'Circulation', value: 'from 200 kg'},
+                        {key: 'Printing', value: 'up to 4 colors'}
                     ]
                 },
                 {
-                    img: 'img/our_products/five.png',
-                    title: 'Пакет "Рейтер"',
+                    img: 'img/our_products/five.jpg',
+                    title: 'Package "Reuters"',
                     data: [
                         {
-                            key: 'Материал',
-                            value: 'полиэтилен ПНД от 12 мкм (выдерживает до 2 кг) до 30 мкм (выдерживает до 25 кг)'
+                            key: 'Material',
+                            value: 'Polyethylene PND from 12 microns (can withstand up to 25kg) up to 30 microns (can withstand up to 25kg)'
                         },
-                        {key: 'Тираж', value: 'от 150 кг'},
-                        {key: 'Печать', value: 'до 4 цветов'}
+                        {key: 'Circulation', value: 'from 150 kg'},
+                        {key: 'Printing', value: 'up to 4 colors'}
                     ]
                 },
                 {
-                    img: 'img/our_products/six.png',
-                    title: 'Фасовочные пакеты',
+                    img: 'img/our_products/six.jpg',
+                    title: 'Packing bags',
                     data: [
-                        {key: 'Материал', value: ' полиэтилен ПНД, ПСД, ПВД, полипропилен'},
-                        {key: 'Тираж', value: 'от 200 кг'},
-                        {key: 'Печать', value: 'Цвет упаковки: в зависимости от заказа'}
+                        {key: 'Material', value: ' Polyethylene PND, PSD, PVD, polypropylene'},
+                        {key: 'Circulation', value: 'from 200 kg'},
+                        {key: 'Printing', value: 'Package color: depends on the order'}
                     ]
                 }
             ]
         },
         additional: {
-            title: 'Дополнительно',
+            title: 'Additional',
             shoe_covers: {
-                title: 'Бахилы',
+                title: 'Shoe covers',
                 data: [
-                    {key: 'Виды', value: 'Одноразовые средства защиты'},
-                    {key: 'Стандартный размер', value: '38х45 | 17 мкм, 20 мкм, 30 мкм'},
-                    {key: 'Материал', value: 'Полиэтилен, с резинкой'},
-                    {key: 'Тираж', value: 'от 100 кг'},
-                    {key: 'Цвет упаковки', value: 'синий, зеленый, красный, фиолетовый'},
-                    {key: 'Особенности', value: 'Необходимое средство защиты обуви'}
+                    {key: 'Types', value: 'Single-use protective products'},
+                    {key: 'Standard size', value: '38х45 | 17 microns, 20 microns, 30 microns'},
+                    {key: 'Material', value: 'Polyethylene with elastic band'},
+                    {key: 'Circulation', value: 'from 100 kg'},
+                    {key: 'Package color', value: 'blue, green, red, purple'},
+                    {key: 'Features', value: 'Necessary protective products for shoes'}
                 ]
             },
             masks: {
-                title: 'Медицинские маски',
+                title: 'Medical masks',
                 data: [
-                    {key: 'Виды', value: 'Одноразовые средства защиты'},
-                    {key: 'Стандартный размер', value: '38х45 | 17 мкм, 20 мкм, 30 мкм'},
-                    {key: 'Материал', value: 'Полиэтилен, с резинкой'},
-                    {key: 'Тираж', value: 'от 100 кг'}
+                    {key: 'Types', value: 'Single-use protective products'},
+                    {key: 'Standard size', value: '38х45 | 17 microns, 20 microns, 30 microns'},
+                    {key: 'Material', value: 'Polyethylene with elastic band'},
+                    {key: 'Circulation', value: 'up to 100kg'}
                 ]
             }
         },
         greenhouse: {
-            title: 'Тепличные плёнки',
+            title: 'Greenhouse film',
             data: [
-                {key: 'Материал', value: 'полиэтилен ПНД'},
-                {key: 'Тираж', value: 'от 1 до 6 метров'},
-                {key: 'Печать', value: 'до 4 цветов'},
+                {key: 'Material', value: 'Polyethylene ПНД'},
+                {key: 'Circulation', value: 'From 1 to 6 meters'},
+                {key: 'Printing', value: 'up to 4 colors'},
             ]
         },
         contact_us: {
-            title: 'Свяжи тесь с нами',
-            address: 'Ташкентcкая  область, Назарбекский округ, Харакат МФЙ '
+            title: 'Contact us',
+            address: 'Tashkent region, Nazarbek district, Harakat MCM'
         },
-        order: 'Заказать'
+        order: 'Order',
+        search: 'Search'
     }
 ]
