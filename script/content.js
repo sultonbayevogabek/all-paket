@@ -3,7 +3,7 @@ const content = [
     {
         site_nav: ['Наша продукция', 'Производство', 'Контакты'],
         site_intro: {
-            title: 'Лучшые пакеты Ташкента по лучшым ценам',
+            title: 'Лучшие пакеты Ташкента по лучшим ценам',
             button_text: 'Узнать Больше',
             in_market: 'лет на рынке'
         },
@@ -192,7 +192,7 @@ const content = [
             ]
         },
         additional: {
-            title: 'Qo`shimcha',
+            title: 'Qo\'shimcha',
             shoe_covers: {
                 title: 'Bahilalar',
                 data: [
@@ -223,7 +223,7 @@ const content = [
             ]
         },
         contact_us: {
-            title: 'Biz bilan bog`laning',
+            title: 'Biz bilan bog\'laning',
             address: 'Toshkent viloyati, Nazarbek mavzesi, Harakat MFY '
         },
         order: 'Buyurtma qilish',

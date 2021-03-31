@@ -135,6 +135,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })
 
+    siteNav.addEventListener('click', e => {
+        if (e.target.classList.contains('site-nav__link')) {
+            e.currentTarget.classList.remove('site-nav-open')
+            document.body.style.overflow = ''
+        }
+    })
+
     //scroll top top element
 
     const scrollBtn = selectElement("#scroll-top");
