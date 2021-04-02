@@ -60,6 +60,7 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
    display: none;
 }
+
 .section-title {
    width: max-content;
    padding-bottom: 8px;
@@ -70,6 +71,16 @@ input[type="search"]::-webkit-search-results-decoration {
    line-height: 140%;
    color: $WHITE;
    text-transform: capitalize;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+input[type=number] {
+   -moz-appearance: textfield;
 }
 
 #scroll-top {

@@ -24,7 +24,8 @@ const content = [
                         },
                         {key: 'Тираж', value: 'от 200 кг'},
                         {key: 'Печать', value: 'до 4 цветов'}
-                    ]
+                    ],
+                    product_name: 'пакет_майка'
                 },
                 {
                     img: 'img/our_products/two.jpg',
@@ -33,7 +34,8 @@ const content = [
                         {key: 'Материал', value: 'ПСД, ПВД'},
                         {key: 'Тираж', value: 'от 150 кг'},
                         {key: 'Печать', value: 'По вашему выбору'}
-                    ]
+                    ],
+                    product_name: 'рулоны'
                 },
                 {
                     img: 'img/our_products/three.jpg',
@@ -42,7 +44,8 @@ const content = [
                         {key: 'Материал', value: 'полиэтилен ПНД, ПСД, ПВД, полипропилен'},
                         {key: 'Тираж', value: 'от 150 кг'},
                         {key: 'Печать', value: 'флексографическая до 6 цветов'}
-                    ]
+                    ],
+                    product_name: 'мешки_для_мусора'
                 },
                 {
                     img: 'img/our_products/four.jpg',
@@ -51,7 +54,8 @@ const content = [
                         {key: 'Материал', value: 'полиэтилен ПНД, ПСД, ПВД, полипропилен'},
                         {key: 'Тираж', value: 'от 200 кг'},
                         {key: 'Печать', value: 'до 4 цветов'}
-                    ]
+                    ],
+                    product_name: 'термоусадочная_плёнка'
                 },
                 {
                     img: 'img/our_products/five.jpg',
@@ -63,7 +67,8 @@ const content = [
                         },
                         {key: 'Тираж', value: 'от 150 кг'},
                         {key: 'Печать', value: 'до 4 цветов'}
-                    ]
+                    ],
+                    product_name: 'пакет_рейтер'
                 },
                 {
                     img: 'img/our_products/six.jpg',
@@ -72,7 +77,8 @@ const content = [
                         {key: 'Материал', value: ' полиэтилен ПНД, ПСД, ПВД, полипропилен'},
                         {key: 'Тираж', value: 'от 200 кг'},
                         {key: 'Печать', value: 'Цвет упаковки: в зависимости от заказа'}
-                    ]
+                    ],
+                    product_name: 'фасовочные_пакеты'
                 }
             ]
         },
@@ -139,7 +145,8 @@ const content = [
                         },
                         {key: 'Tiraji', value: '200 kilogramdan'},
                         {key: 'Bosmasi', value: '4 xil rangda'}
-                    ]
+                    ],
+                    product_name: 'пакет_майка'
                 },
                 {
                     img: 'img/our_products/two.jpg',
@@ -148,7 +155,8 @@ const content = [
                         {key: 'Materiali', value: 'PSD, PVD'},
                         {key: 'Tiraji', value: '150 kilogramdan'},
                         {key: 'Bosmasi', value: 'Tanlovingizga qarab'}
-                    ]
+                    ],
+                    product_name: 'рулоны'
                 },
                 {
                     img: 'img/our_products/three.jpg',
@@ -157,7 +165,8 @@ const content = [
                         {key: 'Materiali', value: 'PND polietileni, PSD, PVD, polipropilen'},
                         {key: 'Tiraji', value: '150 kilogramdan'},
                         {key: 'Bosmasi', value: 'fleksografik, 6 xil rangda'}
-                    ]
+                    ],
+                    product_name: 'мешки_для_мусора'
                 },
                 {
                     img: 'img/our_products/four.jpg',
@@ -166,7 +175,8 @@ const content = [
                         {key: 'Materiali', value: 'PND polietileni, PSD, PVD, polipropilen'},
                         {key: 'Tiraji', value: '200 kilogramdan'},
                         {key: 'Bosmasi', value: '4 xil rangda'}
-                    ]
+                    ],
+                    product_name: 'термоусадочная_плёнка'
                 },
                 {
                     img: 'img/our_products/five.jpg',
@@ -178,7 +188,8 @@ const content = [
                         },
                         {key: 'Tiraji', value: '150 kilogramdan'},
                         {key: 'Bosmasi', value: '4 xil rangda'}
-                    ]
+                    ],
+                    product_name: 'пакет_рейтер'
                 },
                 {
                     img: 'img/our_products/six.jpg',
@@ -187,7 +198,8 @@ const content = [
                         {key: 'Materiali', value: 'PND polietileni, PSD, PVD, polipropilen'},
                         {key: 'Tiraji', value: '200 kilgoramdan'},
                         {key: 'Bosmasi', value: 'Qadoq rangi: buyurtmadan kelib chiqqan holda'}
-                    ]
+                    ],
+                    product_name: 'фасовочные_пакеты'
                 }
             ]
         },
@@ -254,7 +266,8 @@ const content = [
                         },
                         {key: 'Circulation', value: 'from 200 kg'},
                         {key: 'Printing', value: 'up to 4 colors'}
-                    ]
+                    ],
+                    product_name: 'пакет_майка'
                 },
                 {
                     img: 'img/our_products/two.jpg',
@@ -263,7 +276,8 @@ const content = [
                         {key: 'Material', value: 'PSD, PVD'},
                         {key: 'Circulation', value: 'from 150 kg'},
                         {key: 'Printing', value: 'According to your choice'}
-                    ]
+                    ],
+                    product_name: 'рулоны'
                 },
                 {
                     img: 'img/our_products/three.jpg',
@@ -272,7 +286,8 @@ const content = [
                         {key: 'Material', value: 'Polyethylene PND, PSD, PVD, polypropylene'},
                         {key: 'Circulation', value: 'from 150 kg'},
                         {key: 'Printing', value: 'flexographic up to 6 colors'}
-                    ]
+                    ],
+                    product_name: 'мешки_для_мусора'
                 },
                 {
                     img: 'img/our_products/four.jpg',
@@ -281,7 +296,8 @@ const content = [
                         {key: 'Material', value: 'Polyethylene PND, PSD, PVD, polypropylene'},
                         {key: 'Circulation', value: 'from 200 kg'},
                         {key: 'Printing', value: 'up to 4 colors'}
-                    ]
+                    ],
+                    product_name: 'термоусадочная_плёнка'
                 },
                 {
                     img: 'img/our_products/five.jpg',
@@ -293,7 +309,8 @@ const content = [
                         },
                         {key: 'Circulation', value: 'from 150 kg'},
                         {key: 'Printing', value: 'up to 4 colors'}
-                    ]
+                    ],
+                    product_name: 'пакет_рейтер'
                 },
                 {
                     img: 'img/our_products/six.jpg',
@@ -302,7 +319,8 @@ const content = [
                         {key: 'Material', value: ' Polyethylene PND, PSD, PVD, polypropylene'},
                         {key: 'Circulation', value: 'from 200 kg'},
                         {key: 'Printing', value: 'Package color: depends on the order'}
-                    ]
+                    ],
+                    product_name: 'фасовочные_пакеты'
                 }
             ]
         },

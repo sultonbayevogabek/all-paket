@@ -1,62 +1,6 @@
-document.addEventListener('DOMContentLoaded', () => {
-    //declare selector functions
-    function selectElement(selector) {
-        return document.querySelector(selector)
-    }
+import {selectAllElements, selectElement} from "./selector-functions"
 
-    function selectAllElements(selector) {
-        return document.querySelectorAll(selector)
-    }
-
-    //search input
-    const searchFormElement = selectElement('.search-form'),
-        searchInputElement = selectElement('.search-input'),
-        searchButtonElement = selectElement('.search-button'),
-        searchButtonIcon = selectElement('.search-button img')
-
-    function openSearchInput() {
-        setTimeout(() => {
-            searchInputElement.classList.remove('search-input-close')
-            searchInputElement.classList.add('search-input-open')
-            searchInputElement.classList.remove('hidden')
-        }, 200)
-        setTimeout(() => {
-            searchInputElement.focus()
-        }, 600)
-    }
-
-    function closeSearchInput() {
-        searchInputElement.classList.remove('search-input-open')
-        searchInputElement.classList.add('search-input-close')
-        searchFormElement.reset()
-        setTimeout(() => {
-            searchInputElement.classList.add('hidden')
-        }, 400)
-    }
-
-    let isSearchInputOpen = false
-
-    searchButtonElement.addEventListener('click', e => {
-        isSearchInputOpen = !isSearchInputOpen
-
-        if (isSearchInputOpen) {
-            searchButtonIcon.src = 'img/icons/search_icon_green.svg'
-            openSearchInput()
-        } else {
-            searchButtonIcon.src = 'img/icons/search_icon.svg'
-            closeSearchInput()
-        }
-    })
-
-    window.addEventListener('keydown', e => {
-        if (e.key === 'Escape' && isSearchInputOpen) {
-            searchButtonIcon.src = 'img/icons/search_icon.svg'
-            closeSearchInput()
-            isSearchInputOpen = !isSearchInputOpen
-        }
-    })
-
-    // language select
+export default function languageFunction() {
     const languageElement = selectElement('.language'),
         languageSelected = selectElement('.language__selected'),
         languageList = selectElement('.language__list'),
@@ -120,54 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
         target.classList.add('language__item--active')
     })
 
-
-    //navigation bar
-    const menuBar = selectElement('.menu-bar'),
-        siteNav = selectElement('.site-nav')
-
-    menuBar.addEventListener('click', () => {
-        siteNav.classList.toggle('site-nav-open')
-
-        if (siteNav.classList.contains('site-nav-open')) {
-            document.body.style.overflow = 'hidden'
-        } else {
-            document.body.style.overflow = ''
-        }
-    })
-
-    siteNav.addEventListener('click', e => {
-        if (e.target.classList.contains('site-nav__link')) {
-            e.currentTarget.classList.remove('site-nav-open')
-            document.body.style.overflow = ''
-        }
-    })
-
-    //scroll top top element
-
-    const scrollBtn = selectElement("#scroll-top");
-
-    window.onscroll = function () {
-        scrollFunction()
-    };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-            scrollBtn.style.display = "block"
-        } else {
-            scrollBtn.style.display = "none"
-        }
-    }
-
-    function topFunction() {
-        document.body.scrollTop = 0
-        document.documentElement.scrollTop = 0
-    }
-
-    scrollBtn.addEventListener('click', () => {
-        topFunction()
-    })
-
-    // language changing
     const siteNavUl = selectElement('.site-nav__ul'),
         searchInput = selectElement('.search-input'),
         siteIntroContainer = selectElement('.site-intro .container'),
@@ -316,4 +212,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     renderOnChangeLanguage(selectedLanguageIndex)
-})
+}
