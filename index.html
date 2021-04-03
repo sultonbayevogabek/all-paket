@@ -172,7 +172,13 @@
             </label>
             <label for="customer_phone">
                 <span id="customer_phone_span">Telefon raqamingizni kiriting: </span>
-                <input class="masked-phone" id="customer_phone" type="tel" name="customer_name" data-phonemask="+998 ( _ _ )  _ _ _  _ _  _ _" required/>
+                <input type="tel"
+                       name="phone"
+
+                       pattern="^\+998(\s+)?\(?(33|62|71|78|93|90|91|88|98|94|97|95)\)?(\s+)?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$"
+                       id="customer_phone"
+                       required
+                />
             </label>
             <label class="product-name-label">
                 <span>Mahsulot nomi: </span>
