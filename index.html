@@ -74,7 +74,7 @@
             <div class="shoe-covers__info">
                 <h3 class="section-title"></h3>
                 <ul class="shoe-covers__ul"></ul>
-                <button></button>
+                <button data-product-name="бахилы"></button>
             </div>
             <img src="img/additional/bahila.png" alt="shoe covers">
         </div>
@@ -174,11 +174,12 @@
                 <span id="customer_phone_span">Telefon raqamingizni kiriting: </span>
                 <input class="masked-phone" id="customer_phone" type="tel" name="customer_name" data-phonemask="+998 ( _ _ )  _ _ _  _ _  _ _" required/>
             </label>
-            <label>
+            <label class="product-name-label">
                 <span>Mahsulot nomi: </span>
                 <strong></strong>
+                <input type="hidden" name="product_name" id="product_name">
             </label>
-            <button class="order-btn" type="button">Jo'natish</button>
+            <button class="order-btn" type="button"></button>
         </form>
         <div class="close-modal">&times;</div>
     </div>

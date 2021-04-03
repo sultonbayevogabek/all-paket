@@ -699,6 +699,7 @@ input[type=number] {
   bottom: 0;
   right: 0;
   left: 0;
+  z-index: 10;
   background-color: rgba(1, 151, 246, 0.7);
   display: flex;
   align-items: center;
@@ -790,6 +791,19 @@ label input {
 
 .hide-modal {
   display: none;
+}
+
+.product-name-label {
+  display: flex;
+  align-items: center;
+}
+.product-name-label span {
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+.product-name-label strong {
+  color: #FFFFFF;
+  vertical-align: middle;
 }
 
 @media only screen and (max-width: 1346px) {

@@ -1,4 +1,5 @@
 import {selectAllElements, selectElement} from "./selector-functions"
+import orderModal from './order-modal'
 
 export default function languageFunction() {
     const languageElement = selectElement('.language'),
@@ -81,7 +82,12 @@ export default function languageFunction() {
         greenHouseUl = selectElement('.greenhouse .shoe-covers__ul'),
         greenHouseOrder = selectElement('.greenhouse .order-btn'),
         contactsTitle = selectElement('.site-footer h2'),
-        contactsMapLink = selectElement('.map-link')
+        contactsMapLink = selectElement('.map-link'),
+        orderModalTitle = selectElement('.order-modal__content h2'),
+        customerNameLabel = selectElement('#customer_name_span'),
+        customerPhoneLabel = selectElement('#customer_phone_span'),
+        orderFormSubmit = selectElement('.order-modal__form .order-btn'),
+        productNameLabel = selectElement('.product-name-label span:first-child')
 
     function renderOnChangeLanguage(languageIndex = 0) {
         const {
@@ -93,7 +99,11 @@ export default function languageFunction() {
             greenhouse,
             contact_us,
             order,
-            search
+            search,
+            fill_form,
+            enter_name,
+            enter_phone,
+            product_name
         } = content[languageIndex]
 
         siteNavUl.innerHTML = ''
@@ -141,7 +151,7 @@ export default function languageFunction() {
 
         ourProductsTitle.textContent = our_products.title
         ourProductsRow.innerHTML = ''
-        our_products.cards.forEach(({img, title, data}) => {
+        our_products.cards.forEach(({img, title, data, product_name}) => {
             ourProductsRow.innerHTML += `
                 <div class="card">
                     <div class="card-header">
@@ -164,7 +174,7 @@ export default function languageFunction() {
                             <span>${data[2].value}</span>
                         </div>
                         <div>
-                            <button class="order-btn">${order}</button>
+                            <button class="order-btn" data-product-name=${product_name} data-product-name-show=${title.split(' ').join('_')}>${order}</button>
                         </div>
                     </div>
                 </div>
@@ -183,7 +193,9 @@ export default function languageFunction() {
             `
         })
         shoeCoversOrder.textContent = order
-        medicalMasksTitle.textContent = additional.masks.title
+        shoeCoversOrder.dataset.productName = 'бахилы'
+        shoeCoversOrder.dataset.productNameShow = additional.shoe_covers.title.split(' ').join('_')
+            medicalMasksTitle.textContent = additional.masks.title
         medicalMasksUl.innerHTML = ''
         additional.masks.data.forEach(({key, value}) => {
             medicalMasksUl.innerHTML += `
@@ -194,6 +206,8 @@ export default function languageFunction() {
             `
         })
         medicalMasksOrder.textContent = order
+        medicalMasksOrder.dataset.productName = 'медицинские_маски'
+        medicalMasksOrder.dataset.productNameShow = additional.masks.title.split(' ').join('_')
 
         greenHouseTitle.textContent = greenhouse.title
         greenHouseUl.innerHTML = ''
@@ -206,9 +220,19 @@ export default function languageFunction() {
             `
         })
         greenHouseOrder.textContent = order
+        greenHouseOrder.dataset.productName = 'тепличные_плёнки'
+        greenHouseOrder.dataset.productNameShow = greenhouse.title.split(' ').join('_')
 
         contactsTitle.textContent = contact_us.title
         contactsMapLink.textContent = contact_us.address
+
+        orderModalTitle.textContent = fill_form
+        customerNameLabel.textContent = enter_name
+        customerPhoneLabel.textContent = enter_phone
+        productNameLabel.textContent = product_name
+        orderFormSubmit.textContent = order
+
+        orderModal()
     }
 
     renderOnChangeLanguage(selectedLanguageIndex)

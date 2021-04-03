@@ -4,6 +4,7 @@
    bottom: 0;
    right: 0;
    left: 0;
+   z-index: 10;
    background-color: rgba($MAIN-BLUE, 0.7);
    display: flex;
    align-items: center;
@@ -100,4 +101,19 @@ label {
 
 .hide-modal {
    display: none;
+}
+
+.product-name-label {
+   display: flex;
+   align-items: center;
+
+   span {
+      margin-right: 5px;
+      margin-bottom: 0;
+   }
+
+   strong {
+      color: $WHITE;
+      vertical-align: middle;
+   }
 }

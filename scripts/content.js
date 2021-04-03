@@ -118,7 +118,11 @@ const content = [
             address: 'Ташкентcкая  область, Назарбекский округ, Харакат МФЙ '
         },
         order: 'Заказать',
-        search: 'Поиск'
+        search: 'Поиск',
+        fill_form: 'Заполните форму',
+        enter_name: 'Введите ваше имя:',
+        enter_phone: 'Введите номер телефона:',
+        product_name: 'Имя продукта: '
     },
     //O`Z
     {
@@ -239,7 +243,11 @@ const content = [
             address: 'Toshkent viloyati, Nazarbek mavzesi, Harakat MFY '
         },
         order: 'Buyurtma qilish',
-        search: 'Qidirish'
+        search: 'Qidirish',
+        fill_form: 'Formani to\'ldiring',
+        enter_name: 'Ismingizni kiriting:',
+        enter_phone: 'Telefon raqamingizni kiriting:',
+        product_name: 'Mahsulot nomi: '
     },
     //EN
     {
@@ -360,6 +368,10 @@ const content = [
             address: 'Tashkent region, Nazarbek district, Harakat MCM'
         },
         order: 'Order',
-        search: 'Search'
+        search: 'Search',
+        fill_form: 'Fill out the form',
+        enter_name: 'Enter your name:',
+        enter_phone: 'Enter phone number:',
+        product_name: 'Product name: '
     }
 ]
