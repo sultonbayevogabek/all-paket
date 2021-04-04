@@ -1,8 +1,6 @@
 import {selectAllElements, selectElement} from "./selector-functions"
 
 export default function orderModal() {
-
-
     const orderModalLayer = selectElement('.order-modal'),
         orderModalContent = selectElement('.order-modal__content'),
         orderForm = selectElement('.order-modal__form'),
@@ -58,5 +56,12 @@ export default function orderModal() {
 
     selectElement('.close-modal').addEventListener('click', () => {
         closeModal()
+    })
+
+    orderFormSubmit.addEventListener('click', () => {
+        let customerName = customerNameInput.value,
+            customerPhone = customerPhoneInput.value
+
+        console.log(customerName, customerPhone)
     })
 }
