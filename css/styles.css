@@ -807,6 +807,15 @@ label input {
   vertical-align: middle;
 }
 
+.error-message {
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  color: indianred;
+  background: linear-gradient(90deg, #3CFCD4 0%, #2AE7BF 100%);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
 @media only screen and (max-width: 1346px) {
   .card {
     width: 49%;

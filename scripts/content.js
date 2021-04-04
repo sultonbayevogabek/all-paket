@@ -122,7 +122,8 @@ const content = [
         fill_form: 'Заполните форму',
         enter_name: 'Введите ваше имя:',
         enter_phone: 'Введите номер телефона:',
-        product_name: 'Имя продукта: '
+        product_name: 'Имя продукта: ',
+        error_message: 'Введите всю информацию правильно, чтобы мы могли с вами связаться'
     },
     //O`Z
     {
@@ -247,7 +248,8 @@ const content = [
         fill_form: 'Formani to\'ldiring',
         enter_name: 'Ismingizni kiriting:',
         enter_phone: 'Telefon raqamingizni kiriting:',
-        product_name: 'Mahsulot nomi: '
+        product_name: 'Mahsulot nomi: ',
+        error_message: 'Siz bilan bog`lana olishimiz uchun hamma ma`lumotlarni to`g`ri kiriting'
     },
     //EN
     {
@@ -372,6 +374,7 @@ const content = [
         fill_form: 'Fill out the form',
         enter_name: 'Enter your name:',
         enter_phone: 'Enter phone number:',
-        product_name: 'Product name: '
+        product_name: 'Product name: ',
+        error_message: 'Enter all the information correctly so that we can contact you'
     }
 ]

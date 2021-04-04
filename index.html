@@ -168,7 +168,7 @@
         <form class="order-modal__form" action="/" method="get">
             <label for="customer_name">
                 <span id="customer_name_span">Ismingizni kiriting: </span>
-                <input id="customer_name" type="text" name="customer_name" required minlength="5" maxlength="14">
+                <input id="customer_name" type="text" name="customer_name" required minlength="5" maxlength="20">
             </label>
             <label for="customer_phone">
                 <span id="customer_phone_span">Telefon raqamingizni kiriting: </span>
@@ -179,6 +179,7 @@
                 <strong></strong>
                 <input type="hidden" name="product_name" id="product_name">
             </label>
+            <label class="error-message hidden"></label>
             <button class="order-btn" type="button"></button>
         </form>
         <div class="close-modal">&times;</div>

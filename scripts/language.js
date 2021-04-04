@@ -87,7 +87,8 @@ export default function languageFunction() {
         customerNameLabel = selectElement('#customer_name_span'),
         customerPhoneLabel = selectElement('#customer_phone_span'),
         orderFormSubmit = selectElement('.order-modal__form .order-btn'),
-        productNameLabel = selectElement('.product-name-label span:first-child')
+        productNameLabel = selectElement('.product-name-label span:first-child'),
+        errorMessage = selectElement('.error-message')
 
     function renderOnChangeLanguage(languageIndex = 0) {
         const {
@@ -103,7 +104,8 @@ export default function languageFunction() {
             fill_form,
             enter_name,
             enter_phone,
-            product_name
+            product_name,
+            error_message
         } = content[languageIndex]
 
         siteNavUl.innerHTML = ''
@@ -231,6 +233,7 @@ export default function languageFunction() {
         customerPhoneLabel.textContent = enter_phone
         productNameLabel.textContent = product_name
         orderFormSubmit.textContent = order
+        errorMessage.textContent = error_message
 
         orderModal()
     }

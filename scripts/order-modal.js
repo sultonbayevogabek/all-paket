@@ -12,7 +12,8 @@ export default function orderModal() {
         productNameLabel = selectElement('.product-name-label span:first-child'),
         productNameInForm = selectElement('.product-name-label strong'),
         productNameInput = selectElement('#product_name'),
-        scrollTopButton = selectElement('#scroll-top')
+        scrollTopButton = selectElement('#scroll-top'),
+        errorMessage = selectElement('.error-message')
 
     function openModal(productName, productNameShow) {
         document.body.style.overflow = 'hidden'
@@ -28,6 +29,8 @@ export default function orderModal() {
         if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
             scrollTopButton.style.display = 'block'
         }
+        orderForm.reset()
+        errorMessage.classList.add('hidden')
     }
 
     let orderButtons = selectAllElements('[data-product-name]')
@@ -62,6 +65,12 @@ export default function orderModal() {
         let customerName = customerNameInput.value,
             customerPhone = customerPhoneInput.value
 
-        console.log(customerName, customerPhone)
+        if (customerName.replace(/ /gi, '').length >= 5 && customerPhone.length === 17) {
+            orderForm.submit()
+            errorMessage.classList.add('hidden')
+            orderForm.reset()
+        } else {
+            errorMessage.classList.remove('hidden')
+        }
     })
 }
